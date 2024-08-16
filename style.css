@@ -1,0 +1,452 @@
+body {
+    margin: 0%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.title a {
+    text-decoration: none;
+    color: white;
+}
+
+.head1 {
+    background-color: #ffdd00;
+    text-align: center;
+    background-size: 100%;
+    padding: 5px;
+}
+.bank{
+    display: flex;
+    align-items: center;
+    padding-left: 10%;
+}
+.bank img{
+    align-items: center;
+}
+
+.title {
+    background-color: black;
+    color: white;
+    display: flex;
+    padding: 10px;
+    font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  
+
+}
+
+.left1 {
+    text-align: left;
+    
+    padding-left: 5%;
+
+}
+.right1{
+    padding-left: 60%;
+}
+
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    padding-left: 5%;
+    font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.logo a {
+    text-decoration: none;
+    color: black;
+}
+.logo .att{
+    padding-left: 3%;
+}
+
+.logo .ic{
+    display: flex;
+    padding-left: 3%;
+    margin: 2%;
+    
+}
+.logo .ic a{
+    padding: 0% 30% 0% 50%;
+    justify-content: space-evenly;
+}
+
+.navbar {
+    background-color: white;
+    position: sticky;
+    top:0;
+    z-index: 1;    
+}
+.tags{
+    display: flex;
+    padding-left: 5.5%;
+    margin: 2% 0% 2% 0%;
+}
+.tags .second2{
+    width: 50%;
+    border: 5px solid black;
+    margin-right: 30%;
+}
+.urban-exclusive{
+    width: 90%;
+    padding-left: 5.5%;
+    padding-right: 3%;
+}
+.offers{
+    display: grid;
+    padding-left: 2%;
+    padding-bottom: 0%;
+    margin: 0%;
+    
+}
+.offers .text{
+    text-align: center;
+    padding-left: 1%;
+    gap: 10px;
+    padding-right: 5%;
+}
+
+.offers img{
+    width: 17%;
+    height: 100%;
+    border: 1% solid black;
+    border-radius:5% ;
+    margin-top: 0%;
+    justify-items: stretch;
+    margin-right:2%;
+    padding-left: 4.5%;
+
+    
+
+}
+
+.drops .text {
+    padding-top: 4%;
+    text-align: center;
+}
+.title .right{
+    font-size: 12px;
+    align-items: center;
+}
+.drops{
+    display: grid;
+    margin: 0%;
+}
+.drops .text{
+    text-align: center;
+    padding-right: 0%;
+    margin: 0%;
+}
+.drops .tags a{
+    text-decoration: none;
+    color:black;
+    border: 2px solid black;
+    border-radius: 15%;
+    padding: 5px;
+    margin:3%;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-top: 0%;
+}
+ .drops .tags{
+    padding-left: 32%;
+    margin: 0%;
+}
+.drops .tags .polo{
+   
+    color:white;
+    background-color: black;
+    
+}/*
+.drops img{
+    width: 14.5%;
+    margin: 0%;
+    margin-left: 5%;
+    padding-right: 1%;
+    border: 1% solid black;
+    border-radius:5% ;
+    padding-left: 3%;
+}
+.cargos img{
+    width: 14%;
+    margin: 4%;
+    margin-left: 5%;
+    border: 1% solid black;
+    border-radius:5% ;
+}
+.cargos .text{
+    text-align: center;
+    padding-right: 0%;
+} */
+.cargos .tags a{
+    text-decoration: none;
+    color:black;
+    border: 2px solid black;
+    border-radius: 15%;
+    padding: 5px;
+    margin:3%;
+    padding-left: 2%;
+    padding-right: 1%;
+    
+}
+ .cargos .tags{
+    padding-left: 33%;
+    margin: 0%;
+}
+.cargos .tags .cargo{
+    color:white;
+    background-color: black;
+    
+}  
+.drops{
+    display: grid;
+    padding-left: 3%;
+    padding-bottom: 0%;
+    margin: 0%;
+    
+}
+.drops .text{
+    text-align: center;
+    padding-right: 5%;
+    gap: 10px;
+    padding-right: 5%;
+    margin:0% ;
+    margin-bottom: 0%;
+}
+
+.drops img{
+    width: 270px;
+    padding-right:1.5%;
+    margin-left: 3%;
+    border: 2% solid black;
+    border-radius:8%;
+    margin: 1%;
+    margin-left: 3%;
+    
+}
+
+.cargos{
+    display: grid;
+    padding-left: 1%;
+    padding-bottom: 0%;
+    margin: 0%;
+    
+}
+.cargos .text{
+    text-align: center;
+    padding-left: 50%;
+    gap: 10px;
+    padding-right: 5%;
+    margin:0% ;
+    margin-bottom: 0%;
+}
+
+.cargos img{
+    width: 260px;
+    padding-left: 2%;
+    margin: 1.5%;
+    margin-left: 3%;
+    border: 1% solid black;
+    border-radius:5%;
+    
+    
+} 
+.scroller{
+    padding-bottom: 9%;
+    margin-top: -1%;
+}
+.mark .marquee {
+    white-space: nowrap;
+    overflow: hidden;
+    position: relative;
+    animation: marquee 10s linear infinite;
+}
+.email{
+    background-color: #eaeaea;
+    padding-left: 2%;
+    
+}
+.email a{
+    text-decoration: none;
+    color:black;
+    border: 1px solid black;
+    padding: 0%;
+    background-color: #ffdd00;
+    font-weight: bold;
+    justify-items: center;
+}
+.mail{
+    
+    padding: 1%;
+    padding-top: 2%;
+    color: grey;
+    font-size: 18px;
+    font-style:italic;
+    margin-left:-1%;
+}
+.input-1{
+    padding: 0.5%;
+     border: 1px solid black; 
+     border-radius:6px;
+}
+.input-2{
+     border: 1px solid black; 
+     border-radius:6px;
+     font-weight: lighter;
+}
+.bot{
+    display: flex;
+    background-color: black;
+    justify-content: space-evenly;
+    color:white;
+    font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.bot h3{
+    padding-left: 25%;
+    color:#ffdd00;
+}
+.app{
+    display: flex;
+    background-color: black;
+    justify-content: space-evenly;
+    color:white;
+    padding-left: 50%;
+    margin: -4%;
+}
+.app h3{
+    padding-left: 25%;
+    color:#ffdd00;
+}
+.combo_image {
+    padding-left: 4.5%;
+    width: 91%;
+    padding-top: 3%;
+   
+}
+
+.pick_container a {
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 25px;
+    padding: 10px 15px;
+    margin: 1%;
+
+    text-decoration: none;
+}
+
+.pick_container a:hover {
+    background-color: black;
+    color: white;
+}
+
+.pick_container {
+    padding-top: 4%;
+    text-align: center;
+}
+.card_container{
+    display: flex;
+
+}
+
+.image_card-5 img {
+    width: 20%;
+    margin: 2%;
+    border: 1px solid lightsteelblue;
+    border-radius: 15px;
+
+}
+
+.image_card-5 {
+    margin-left: 2.3%;
+}
+
+.image_card-1 img {
+    width: 21%;
+    margin: 1.5%;
+    
+    border-radius: 15px;
+
+}
+
+.image_card-1 {
+    margin-left: 2.3%;
+    margin-top: -2%;
+    
+}
+
+.head {
+    text-align: center;
+    font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.image_card-2 img {
+    width: 30%;
+    margin: 1%;
+    
+    border-radius: 15px;
+
+}
+
+.image_card-2 {
+    margin-left: 2.3%;
+    margin-top: -2%;
+    
+}
+.head_conatiner{
+    margin-left: 0.5%;
+}
+.line{
+    display: flex;
+    padding-left: 5%;
+    padding-right: 5%;
+    align-items:center;
+    
+}
+.vertical-line {
+   
+    border-left: 2px solid #ffdd00;
+  height:120px;
+  position: absolute;
+  left: 45%;
+  margin-left:0px;
+  top: 0;
+
+} 
+.friends{
+    margin-right:40%;
+}
+.friends img{
+    
+    width: 18px;
+    margin-right: 0.1%;
+}
+.pick_container1 a {
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 25px;
+    padding: 10px 15px;
+    margin: 1%;
+
+    text-decoration: none;
+}
+
+.pick_container1 a:hover {
+    background-color: black;
+    color: white;
+}
+
+.pick_container1 {
+    padding-top: 4%;
+    text-align: center;
+    margin-bottom: 3%;
+}
